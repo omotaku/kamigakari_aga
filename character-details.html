@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キャラクター超詳細 | かみがかりデイズ ガイド</title>
+    <!-- 既存のガイドサイトとCSSを共有 -->
+    <link rel="stylesheet" href="guide-style.css">
+</head>
+<body>
+    <button class="nav-toggle" aria-label="ナビゲーションを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <div class="overlay"></div>
+    
+    <div class="guide-container">
+        <!-- サイドナビゲーション（ガイドサイトと共通のデザインにするため配置） -->
+        <nav class="side-nav">
+            <div class="logo">かみがかりデイズ</div>
+            <ul>
+                <li><a href="guide.html#section-about">はじめに</a></li>
+                <li><a href="guide.html#section-philosophy">作品の哲学</a></li>
+                <li class="current-page-marker"><a href="#">キャラクター超詳細</a></li>
+                <li><a href="guide.html#section-world">舞台設定</a></li>
+                <li><a href="guide.html#section-plot">物語の構造</a></li>
+                <li><a href="guide.html#section-episode1">第一話プロット</a></li>
+            </ul>
+        </nav>
+
+        <!-- メインコンテンツ -->
+        <main class="main-content">
+            <header>
+                <h1>キャラクター超詳細</h1>
+                <p>各キャラクターの内面、成長、関係性の変化などを深く掘り下げます。</p>
+            </header>
+
+            <!-- キャラクター選択タブ -->
+            <div class="tab-nav" id="character-tabs">
+                <!-- タブはJSで自動生成されます -->
+            </div>
+
+            <!-- キャラクター詳細表示エリア -->
+            <div id="character-details-content">
+                <!-- 詳細コンテンツはJSで自動生成されます -->
+            </div>
+        </main>
+    </div>
+    <script src="character-details.js"></script>
+</body>
+</html>
